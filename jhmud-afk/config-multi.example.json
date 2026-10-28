@@ -1,0 +1,9 @@
+{
+  "url": "http://175.178.190.184/",
+  "accounts": [
+    { "user": "YOUR_USER", "pass": "YOUR_PASS", "roles": [] }
+  ],
+  "headless": true,
+  "checkEvery": 20,
+  "blockCss": true
+}

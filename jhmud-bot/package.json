@@ -1,0 +1,17 @@
+{
+  "name": "jhmud-bot",
+  "private": true,
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "scripts": {
+    "record": "node src/index.js --record",
+    "daily": "node src/index.js --daily"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "iconv-lite": "^0.6.3",
+    "json5": "^2.2.3",
+    "qs": "^6.12.0",
+    "ws": "^8.17.0"
+  }
+}

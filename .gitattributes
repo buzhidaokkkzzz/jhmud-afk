@@ -1,0 +1,7 @@
+* text=auto
+
+# Linux 脚本必须是 LF，否则会报 $'\r': command not found
+*.sh text eol=lf
+
+# Windows 批处理必须是 CRLF，否则 cmd 会切错命令
+*.bat text eol=crlf

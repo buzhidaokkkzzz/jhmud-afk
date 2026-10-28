@@ -1,0 +1,19 @@
+node_modules/
+package-lock.json
+
+# 真实配置（含账号密码），只提交 *.example.json
+config.json
+config-multi.json
+
+# 运行产物
+*.log
+record.txt
+*.png
+
+# 第三方游戏代码，不随仓库分发
+jhmud.js
+jhmud.patch.js
+jhxmud.js
+
+.DS_Store
+Thumbs.db
